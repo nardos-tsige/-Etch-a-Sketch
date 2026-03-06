@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.rows{
+    flex-grow: 1;
+    display: flex;
+}
+.squares{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+button {
+    margin: 8px auto;
+    padding: 5px 10px;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(21, 104, 98);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgb(88, 143, 143);
+}
